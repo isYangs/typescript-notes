@@ -16,9 +16,19 @@
         // lib: 指定编译时需要引入的库
         // "lib": ["es6", "dom"]
         // outDir: 指定编译后的js文件存放的目录
-        "outDir": "./dist"
+        "outDir": "./dist",
         // outFile: 将代码合并为一个文件
         // 设置了outFile，所有的全局作用域中的代码都会被合并到一个文件中
         // "outFile": "./dist/app.js"
+        // 是否允许编译js文件，默认值为false
+        "allowJs": true, 
+        // 是否检查js代码是否符合语法规范，默认值为false
+        "checkJs": true,
+        // 是否移除注释，默认值为false
+        "removeComments": true,
+        // 是否生成编译后的文件
+        "noEmit": true,
+        // 当有错误时不生成编译后的文件
+        "noEmitOnError": true
     }
 }

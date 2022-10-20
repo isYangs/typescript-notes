@@ -1,4 +1,6 @@
-// import { hi } from './m';
+import { hi } from './m';
 let a = 10;
-// console.log(hi);
+console.log(hi);
 console.log(a);
+
+a='hello';
