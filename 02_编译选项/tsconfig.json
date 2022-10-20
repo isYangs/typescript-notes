@@ -21,14 +21,24 @@
         // 设置了outFile，所有的全局作用域中的代码都会被合并到一个文件中
         // "outFile": "./dist/app.js"
         // 是否允许编译js文件，默认值为false
-        "allowJs": true, 
+        "allowJs": true,
         // 是否检查js代码是否符合语法规范，默认值为false
         "checkJs": true,
         // 是否移除注释，默认值为false
         "removeComments": true,
         // 是否生成编译后的文件
-        "noEmit": true,
+        "noEmit": false,
         // 当有错误时不生成编译后的文件
-        "noEmitOnError": true
+        "noEmitOnError": true,
+        // 所有严格检查的总开关
+        "strict": true,
+        // 用来设置编译后的文件是否使用严格模式，默认值为false
+        "alwaysStrict": true,
+        // 不允许隐式的any类型
+        "noImplicitAny": true,
+        // 不允许不明确类型的this
+        "noImplicitThis": true,
+        // 严格的检查空值
+        "strictNullChecks": true
     }
 }
